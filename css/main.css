@@ -1,0 +1,256 @@
+/*base*/
+body,ul,li,p,h1,h2,h3,h4,h5,h6,video,dl,dt,dd{margin:0;padding:0;}
+body{font:normal 12px "맑은 고딕";}
+img{vertical-align:top;border:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+table{border-collapse: collapse;}
+
+#wrap{width:100%;overflow: hidden;}
+
+/* header*/
+.header{position:absolute;width:100%;z-index: 3;}
+.header .header_logo{margin:0 auto;width:1100px;height:75px;padding-top:20px;box-sizing: border-box;}
+.header .header_logo h1 span{color:#fff;}
+.header h1{text-align: center;font-size:22px;}
+.header h1 a{color:#555;}
+
+.header_menu{width:100%;height:43px;background:rgba(0,0,0,0);position:absolute;top:75px;}
+.nav{margin:0 auto;width:1100px;height:45px;}
+.nav .gnb{}
+.nav .gnb>li{float:left;margin-right:120px;line-height: 45px;}
+.nav .gnb>li:first-child{margin-left:110px;}
+.nav .gnb>li:last-child{margin-right:0px;}
+.nav .gnb>li>a{color:#fff;font-size:15px;}
+
+.logo2{position:absolute;left:10px;top:7px;display: none;}
+.logo2 a{color:#fff;font-size:25px;line-height: 1.3; font-family: 'KCC-eunyoung'}
+.logo2 a span{color:#555;}
+
+.gnb li:hover a{color:#555;border-bottom: 2px solid #fff;}
+.gnb li.on a{color:#555;border-bottom: 2px solid #dda0dd;}
+
+
+/*dott*/
+.dott{position:fixed;top:50%;right:20px;transform: translateY(-50%);z-index: 4;}
+.dott li{width:16px;height:30px;margin-bottom:7px;}
+.dott li:last-child{margin-bottom:0;}
+.dott li a{display:block;width:16px;height:16px;border-radius: 50%;background:#f5f5f5;float:right;text-align: center;
+  line-height: 12px;color:#555;}
+
+.dott li .txt-m{opacity: 0}
+.dott li:hover .txt-m{opacity: 1}
+.dott li.on .txt-m{opacity: 1}
+
+.dott li:nth-child(1):hover .txt-m{position:relative;right:43px;top:8px;}
+.dott li:nth-child(2):hover .txt-m{position:relative;right:46px;top:8px;}
+.dott li:nth-child(3):hover .txt-m{position:relative;right:43px;top:8px;}
+.dott li:nth-child(4):hover .txt-m{position:relative;right:43px;top:8px;}
+.dott li:nth-child(5):hover .txt-m{position:relative;right:43px;top:8px;}
+.dott li:nth-child(6):hover .txt-m{position:relative;right:43px;top:8px;}
+
+.dott li:nth-child(1).on .txt-m{position:relative;right:43px;top:8px;}
+.dott li:nth-child(2).on .txt-m{position:relative;right:46px;top:8px;}
+.dott li:nth-child(3).on .txt-m{position:relative;right:43px;top:8px;}
+.dott li:nth-child(4).on .txt-m{position:relative;right:43px;top:8px;}
+.dott li:nth-child(5).on .txt-m{position:relative;right:43px;top:8px;}
+.dott li:nth-child(6).on .txt-m{position:relative;right:43px;top:8px;}
+
+
+.dott li:hover a{width:30px;height:30px;position:relative;top:-7px;left:7px;}
+.dott li.on a{width:30px;height:30px;position:relative;top:-7px;left:7px;}
+
+.dott li:nth-child(1):hover a{background:url(../images/dott/dot_on1.png) no-repeat center;}
+.dott li:nth-child(2):hover a{background:url(../images/dott/dot_on2.png) no-repeat center;}
+.dott li:nth-child(3):hover a{background:url(../images/dott/couronne.png) no-repeat center;}
+.dott li:nth-child(4):hover a{background:url(../images/dott/redapple.png) no-repeat center;}
+.dott li:nth-child(5):hover a{background:url(../images/dott/iope.png) no-repeat center;}
+.dott li:nth-child(6):hover a{background:url(../images/dott/dot_on7.png) no-repeat center;}
+
+.dott li:nth-child(1).on a{background:url(../images/dott/dot_on1.png) no-repeat center;}
+.dott li:nth-child(2).on a{background:url(../images/dott/dot_on2.png) no-repeat center;}
+.dott li:nth-child(3).on a{background:url(../images/dott/couronne.png) no-repeat center;}
+.dott li:nth-child(4).on a{background:url(../images/dott/redapple.png) no-repeat center;}
+.dott li:nth-child(5).on a{background:url(../images/dott/iope.png) no-repeat center;}
+.dott li:nth-child(6).on a{background:url(../images/dott/dot_on7.png) no-repeat center;}
+
+.dot_line{position:fixed;top:0;right:28px;width:1px;height:100%;background:#dda0dd;z-index: 3;}
+
+/*section*/
+section{width:100%;height:500px;overflow: hidden;position: relative;z-index: 2;}
+.page0{background: url(../images/bg01.png) no-repeat center;background-size:cover;}
+.page1{background: #dda0dd;}
+.page2{background: url(../images/bg10-1.png) no-repeat center;background-size:cover;}
+.page3{background: url(../images/bg11-1.png) no-repeat center;background-size:cover;}
+.page4{background: url(../images/bg12-1.png) no-repeat center;background-size:cover;}
+.page5{background: url(../images/bg13-.png) no-repeat center;background-size:cover;}
+
+
+section #page0{position:absolute;top:60%;left:50%;transform:translate(-50%,-60%);color:#fff;z-index: 2;line-height: 1.2;width: 1400px;height: 600px;}
+
+section #page0 .txt1{font-size: 92px; font-weight: bold;color: #fff;line-height: 1;text-align: center;margin-top: 10%;}
+section #page0 .txt2{text-align: center;color:#777;font-size: 20px;margin-top: 3%;;margin-left: -3%;font-family: 'IBMPlexSansKR-ExtraLight';letter-spacing: 1px;font-weight: bold;}
+section #page0 .txt2 span{color:#fff}
+
+.typing-txt{display: none;}
+
+
+@font-face {
+    font-family: 'IBMPlexSansKR-ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+
+  @font-face {
+    font-family: 'KCC-eunyoung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section #page0 .typing{font-size: 30px ;color:#333;margin-top: 6px;letter-spacing: -1px;margin-left: 30.5%;font-weight: normal;font-family: 'KCC-eunyoung'}
+
+.typing {
+  font-weight: bold; 
+  margin-bottom: 5px;  
+  display: inline-block; 
+  animation-name: cursor; 
+  animation-duration: 0.3s; 
+  animation-iteration-count: infinite; 
+} 
+@keyframes cursor{ 
+  0%{border-right: 1px solid #fff} 
+  50%{border-right: 1px solid #000} 
+  100%{border-right: 1px solid #fff} 
+}
+
+/*#page1*/
+section #page1{width:1570px;height:790px;background:#fff;position:absolute;top:48%;left:50%;transform:translate(-50%,-48%);box-shadow: 3px 3px 6px rgba(0,0,0,0.2);}
+section #page2{width:1200px;height:800px;position:absolute;top:50%;left:50%;transform:translate(-50%,-47%);}
+section #page3{width:1200px;height:800px;position:absolute;top:50%;left:50%;transform:translate(-50%,-47%);}
+section #page4{width:1200px;height:800px;;position:absolute;top:50%;left:50%;transform:translate(-50%,-47%);}
+section #page6{width:1200px;height:800px;;position:absolute;top:50%;left:50%;transform:translate(-50%,-47%);}
+
+section>div h2{color:#fff;text-align: center;}
+
+section #page1 div{float:left;}
+section #page1 div.page1_in1{width:90%;height:60px;margin:4% 0 0 5%;border-top: 4px solid #dda0dd;text-align: right;color:#000}
+section #page1 div.page1_in1 p{margin-top: 10px;}
+section #page1 div.page1_in1 p span{font-size: 15px;}
+
+section #page1 div.page1_in2{width:25%;height:480px; margin-left:5%; margin-top:7%;border-right: 1px solid #999; }
+section #page1 div.page1_in2 .in1{color:#999;margin-left: 25%;}
+section #page1 div.page1_in2 .in1 span{color:#5c5c5c;font-weight: bold}
+section #page1 div.page1_in2 .in1 .s1{font-size: 22px;;margin-left:18%;color:#000;font-weight:bold;}
+section #page1 div.page1_in2 .in1 .s2{font-size: 16px;}
+
+section #page1 div.page1_in2 .in2{line-height: 2;margin-top:50px;margin-left:25%;}
+section #page1 div.page1_in2 .in2 span{font-weight: bold;margin-right: 17px;}
+section #page1 div.page1_in2 .in2 span img{margin-top: 1%;}
+
+section #page1 div.page1_in2 .in1 img{margin: 4% 0 2%}
+
+section #page1 div.page1_in3{width:32.5%;height:480px;margin-top:5.5%; }
+section #page1 div.page1_in3 ul{list-style: square; margin-left:50px;}
+section #page1 div.page1_in3 ul li{margin:50px 0 10px 60px;}
+section #page1 div.page1_in3 ul li:last-child{margin-top:50px;background:url(../images/mbti.png);}
+section #page1 div.page1_in3 .tit{font-size: 16px;font-weight: bold;margin-bottom: 15px;}
+section #page1 div.page1_in3 .in3{line-height: 1.8;color:#777;}
+section #page1 div.page1_in3 .in3-1{line-height: 1.8;color:#777;}
+section #page1 div.page1_in3 span{font-weight: bold;margin-right:5px;}
+
+
+section #page1 div.page1_in4{width:32.5%;height:480px;margin-top:5.5%;color:#777;}
+section #page1 div.page1_in4 ul{list-style: square;margin-top:50px;margin-left: 120px;}
+section #page1 div.page1_in4 .tit{font-size: 16px;font-weight: bold;margin-bottom: 17px;color:#000}
+section #page1 div.page1_in4 img{margin-right: 55px;margin-bottom: 25px;}
+section #page1 div.page1_in4 ul li:last-child{margin-top:50px;}
+section #page1 div.page1_in4 .in3 span{font-weight: bold;margin-right: 15px;color:#222}
+section #page1 div.page1_in4 img{width:60px; margin-right:30px;}
+
+/*#page2*/
+section #page2 div{float:left;width:49%;height:600px;margin-top:105px;}
+section #page2 div.page2_in1{margin-right:2%;}
+section #page2 div.page2_in1 img{width: 110%;margin-top: 100px;}
+
+section #page2 div.page2_in2 .p_1{margin-top: 130px;color:#555;line-height: 1.5;font-weight: bold;margin-left: 130px;}
+section #page2 div.page2_in2 .p_1 span{font-size: 40px;color:#222;letter-spacing: -4px;}
+
+section #page2 div.page2_in2 .p_2{margin-top: 50px;color:#555;line-height: 2.1;;font-size: 11px;margin-left: 130px}
+section #page2 div.page2_in2 .p_2 span{color:#000;margin-right: 10px;;font-weight: bold;}
+
+
+section #page2 div.page2_in2 .div_in {width: 380px;height: 30px;margin:10px 0 0 130px}
+
+section #page2 div.page2_in2 .div_in div{border:3px solid #dda0dd; width:100px;height: 30px;margin:30px 15px 0 0px;text-align: center;line-height: 30px;transition: all 0.3s;}
+
+section #page2 div.page2_in2 .div_in div:last-child{margin-right: 0px;}
+
+section #page2 div.page2_in2 .div_in div a{display: block;color:#dda0dd;}
+section #page2 div.page2_in2 .div_in div:hover a{color:#fff}
+section #page2 div.page2_in2 .div_in div:hover{background:#dda0dd;}
+
+/*#page3*/
+section #page3 div{float:left;width:49%;height:600px;margin-top:105px;}
+section #page3 div.page3_in1{margin-right:2%;}
+section #page3 div.page3_in1 img{width: 110%;margin-top: 100px;}
+
+section #page3 div.page3_in2 .p_1{margin-top: 130px;color:#555;line-height: 1.5;font-weight: bold;margin-left: 130px;}
+section #page3 div.page3_in2 .p_1 span{font-size: 40px;color:#222;letter-spacing: -4px;}
+
+section #page3 div.page3_in2 .p_2{margin-top: 50px;color:#555;line-height: 2.1;;font-size: 11px;margin-left: 130px}
+section #page3 div.page3_in2 .p_2 span{color:#000;margin-right: 10px;;font-weight: bold;}
+
+
+section #page3 div.page3_in2 .div_in {width: 380px;height: 30px;margin:10px 0 0 130px}
+
+section #page3 div.page3_in2 .div_in div{border:3px solid #dda0dd;width: 100px;height: 30px;margin:30px 15px 0 0px;text-align: center;line-height: 30px;transition: all 0.3s;}
+
+section #page3 div.page3_in2 .div_in div:last-child{margin-right: 0px;}
+
+section #page3 div.page3_in2 .div_in div a{display: block;color:#dda0dd;}
+section #page3 div.page3_in2 .div_in div:hover a{color:#fff}
+section #page3 div.page3_in2 .div_in div:hover{background:#dda0dd;}
+
+
+/*#page4*/
+section #page4 div{float:left;width:49%;height:600px;margin-top:105px;}
+section #page4 div.page4_in1{margin-right:2%;}
+section #page4 div.page4_in1 img{width: 110%;margin-top: 100px;}
+
+section #page4 div.page4_in2 .p_1{margin-top: 130px;color:#555;line-height: 1.5;font-weight: bold;margin-left: 130px;}
+section #page4 div.page4_in2 .p_1 span{font-size: 40px;color:#222;letter-spacing: -4px;}
+
+section #page4 div.page4_in2 .p_2{margin-top: 50px;color:#555;line-height: 2.1;;font-size: 11px;margin-left: 130px}
+section #page4 div.page4_in2 .p_2 span{color:#000;margin-right: 10px;;font-weight: bold;}
+
+section #page4 div.page4_in2 .div_in {width: 380px;height: 30px;margin:10px 0 0 130px}
+section #page4 div.page4_in2 .div_in div{border:3px solid #dda0dd;width: 100px;height: 30px;margin:30px 15px 0 0px;text-align: center;line-height: 30px;transition: all 0.3s;}
+section #page4 div.page4_in2 .div_in div:last-child{margin-right: 0px;}
+
+section #page4 div.page4_in2 .div_in div a{display: block;color:#dda0dd;}
+section #page4 div.page4_in2 .div_in div:hover a{color:#fff}
+section #page4 div.page4_in2 .div_in div:hover{background:#dda0dd;}
+
+
+/*#page5*/
+.page5{width: 100%;height: 320px;background: url(../images/bg01.png) no-repeat center;background-size:cover;position:relative}
+#page5{width:1200px;height:255px;;position:absolute;top:48%;left:50%;transform:translate(-50%,-47%);}
+
+#page5 h1{text-align: center;font-size: 30px;margin-top: 55px;color:#333;font-family: 'KCC-eunyoung'}
+#page5 p{color:#777 ;text-align: center;line-height: 1.8;}
+
+#page5 .f1{margin-top: 40px;}
+#page5 .f1 span{color:#000;margin-right: 20px;font-weight: bold;}
+#page5 .f2{font-size: 10px;color:#888;margin-top: 40px;}
+
+
+.scroll_down{position:absolute;bottom:7%;left:50%;transform: translateX(-50%);cursor: pointer;}
+.scroll_down .down{animation-name:down;animation-duration: 1.5s;animation-iteration-count: infinite;}
+@keyframes down{
+ 0%{transform: translateY(0);}
+ 50%{transform: translateY(25px);}   
+ 100%{transform: translateY(0);}
+}
+
