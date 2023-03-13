@@ -83,7 +83,7 @@ section{width:100%;height:500px;overflow: hidden;position: relative;z-index: 2;}
 .page2{background: url(../images/bg10-1.png) no-repeat center;background-size:cover;}
 .page3{background: url(../images/bg11-1.png) no-repeat center;background-size:cover;}
 .page4{background: url(../images/bg12-1.png) no-repeat center;background-size:cover;}
-.page5{background: url(../images/bg13-.png) no-repeat center;background-size:cover;}
+.page6{background: url(../images/bg13.png) no-repeat center;background-size:cover;}
 
 
 section #page0{position:absolute;top:60%;left:50%;transform:translate(-50%,-60%);color:#fff;z-index: 2;line-height: 1.2;width: 1400px;height: 600px;}
@@ -234,6 +234,30 @@ section #page4 div.page4_in2 .div_in div:hover a{color:#fff}
 section #page4 div.page4_in2 .div_in div:hover{background:#dda0dd;}
 
 
+/*#page6*/
+section #page6 div{float:left;width:49%;height:600px;margin-top:105px;}
+
+section #page6 div.page6_in1{margin-right:2%;}
+section #page6 div.page6_in1 img{width: 110%;margin-top: 100px;}
+
+section #page6 div.page6_in2 .p_1{margin-top: 130px;color:#555;line-height: 1.5;font-weight:bold; margin-left: 130px;}
+section #page6 div.page6_in2 .p_1 span{font-size: 40px;color:#222;letter-spacing: -2px;}
+
+section #page6 div.page6_in2 .p_2{margin-top: 50px;color:#555;line-height: 2.1;;font-size: 11px;margin-left: 130px}
+section #page6 div.page6_in2 .p_2 span{color:#000;margin-right: 10px;;font-weight: bold;}
+
+section #page6 div.page6_in2 .div_in {width: 300px;height: 30px;margin:10px 0 0 130px}
+section #page6 div.page6_in2 .div_in div{border:3px solid #dda0dd;width: 100px;height: 30px;margin:30px 15px 0 0px;text-align: center;line-height: 30px;transition: all 0.3s;}
+section #page6 div.page6_in2 .div_in div:last-child{margin-right: 0px;}
+
+section #page6 div.page6_in2 .div_in div a{display: block;color:#dda0dd;}
+section #page6 div.page6_in2 .div_in div:hover a{color:#fff}
+section #page6 div.page6_in2 .div_in div:hover{background:#dda0dd;}
+
+
+
+
+
 /*#page5*/
 .page5{width: 100%;height: 320px;background: url(../images/bg01.png) no-repeat center;background-size:cover;position:relative}
 #page5{width:1200px;height:255px;;position:absolute;top:48%;left:50%;transform:translate(-50%,-47%);}
@@ -248,6 +272,8 @@ section #page4 div.page4_in2 .div_in div:hover{background:#dda0dd;}
 
 .scroll_down{position:absolute;bottom:7%;left:50%;transform: translateX(-50%);cursor: pointer;}
 .scroll_down .down{animation-name:down;animation-duration: 1.5s;animation-iteration-count: infinite;}
+
+
 @keyframes down{
  0%{transform: translateY(0);}
  50%{transform: translateY(25px);}   
